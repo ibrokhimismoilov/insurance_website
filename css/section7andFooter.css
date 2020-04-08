@@ -1,0 +1,179 @@
+#section7{
+	width: 100%;
+	background-image: url("../images/section7/sec7Background.jpg");
+	background-position: left top;
+	background-repeat: repeat;
+}
+#section7_ichki{
+	/*border: 1px solid red;*/
+	padding-top: 50px;
+	margin: 0px auto;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#strahvaniyaKompaniya{
+	/*border: 1px solid red;*/
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#strahvaniyaKompaniya > h3{
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-weight: normal;
+	color: #fff;
+}
+#strahvaniyaKompaniya > img{
+	margin: 20px 0px;
+	width: 90%;
+}
+#strahvaniyaKompaniya > h4{
+	margin: 20px 0px;
+	color: #fff;
+	font-size: 18pt;
+	font-weight: normal;
+}
+#strahvaniyaKompaniya > table p, a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13pt;
+}
+#strahvaniyaKompaniya  a:hover{
+	text-decoration: underline;
+}
+
+
+
+#Navigatsiya{
+	/*border: 1px solid red;*/
+	width: 400px;
+}
+#Navigatsiya > h3{
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-weight: normal;
+	color: #fff;
+}
+#Navigatsiya > #Shaxslar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#Navigatsiya > #Shaxslar > #jismoniyShaxs{
+	width: 190px;
+}
+#Navigatsiya > #Shaxslar > #yuridikShaxs{
+	width: 190px;
+}
+#Navigatsiya > #Shaxslar  h4{
+	/*border: 1px solid red;*/
+	text-transform: uppercase;
+	margin: 20px 0px;
+	color: #fff;
+	font-size: 13pt;
+	font-weight: bold;
+}
+#Navigatsiya > #Shaxslar ul{
+	list-style: none;
+}
+#Navigatsiya > #Shaxslar ul li{
+}
+#Navigatsiya > #Shaxslar ul li a{
+	/*border: 1px solid red;*/
+	padding: 5px;
+	display: block;
+	font-size: 10pt;  
+}
+#Navigatsiya > #Shaxslar ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+#otpravitSapsheniya{
+	/*border: 1px solid red;*/
+	width: 400px;
+}
+#otpravitSapsheniya > h3{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-weight: normal;
+	color: #fff;
+}
+#otpravitSapsheniya form{
+	/*border: 1px solid #0ff;*/
+	transition-duration: .3s;
+}
+#otpravitSapsheniya form input[type="text"]{
+	border: none; 
+	padding: 10px;
+	width: 195px;
+	height: 30px;
+	background-color: var(--orange3);
+	color: #fff;
+	font-size: 12pt;
+	float: left;
+}
+#otpravitSapsheniya form input[type="email"]{
+	font-size: 12pt;
+	border: none; 
+	padding: 10px;
+	width: 195px;
+	height: 30px;
+	background-color: var(--orange3);
+	color: #fff;
+	float: right;
+}
+#otpravitSapsheniya form textarea{
+	border: none;
+	padding: 10px;
+	font-size: 12pt;
+	margin-top: 10px;
+	width: 100%;
+	height: 110px;
+	background-color: var(--orange3);
+	color: #fff;
+}
+#otpravitSapsheniya form input[type="submit"]{
+	font-size: 12pt;
+	margin-top: 10px;
+	border: none;
+	border-radius: 30px;
+	width: 120px;
+	height: 30px;
+	background-color: var(--orange3);
+	color: #fff;
+	float: left;
+	cursor: pointer;
+	transition-duration: .3s;
+}
+#otpravitSapsheniya form input[type="submit"]:hover{
+	box-shadow: 0px 0px 15px 5px orange;
+}
+#otpravitSapsheniya form img{
+	float: right;
+}
+
+
+
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: var(--orange3);
+	height: 50px;
+	line-height: 50px;
+}
+footer > p{
+	font-size: 12pt;
+	color: #fff;
+}
+footer > p > span{
+	font-weight: bold;
+}

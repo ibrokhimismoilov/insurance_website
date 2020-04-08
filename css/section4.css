@@ -1,0 +1,169 @@
+#section4{
+	/*border: 1px solid #f00;*/
+	width: 100%;
+	background-color: #fcfbe5;
+}
+#section4 > #section4_ichki{
+	margin: 0px auto; 
+	/*border: 1px solid #0f0;*/
+	width: 1200px;
+	color: var(--orange2);
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+
+#Okompanii{
+	/*border: 1px solid #00f;*/
+	width: 300px;
+	padding: 20px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sec4Sarlovha{
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+#Okompanii > img{
+	width: 70%;
+	margin-bottom: 10px;
+}
+#Okompanii > p{
+	text-align: justify;
+	text-indent: 10%;
+	font-size: 17px;
+}
+.sec4Button_active, .sec4Button{
+	display: block;
+	margin-top: 10px;
+	padding: 5px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: var(--orange2);
+	background-color: #fff;
+	border-radius: 20px;
+	border: 1px solid var(--orange2);
+}
+.sec4Button_active, .sec4Button:hover{
+	display: block;
+	color: #fff;
+	background-color: var(--orange2);
+}
+
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+
+#chiziq{
+	align-self: center;
+	height: 250px;
+	border-left: 3px solid var(--orange2);
+}
+
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+
+#section4 > #section4_ichki > #nashiNovsti{
+	/*border: 1px solid #00f;*/
+	width: 897px;
+	height: 100%;
+	padding: 20px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#sec4_carusel{
+	/*border: 2px solid #f0f;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 875px;
+}
+#sec4_carusel > i{
+	/*border: 1px solid red;*/
+	width: 20px;
+	text-align: center;
+	transform: scaleY(3);
+	font-weight: 100;
+	cursor: pointer;
+	transition-duration: .3s;
+}
+#sec4_carusel > i:hover{
+	transform: scaleY(3) scaleX(2);
+}
+#carusel_joy{
+	/*border: 1px solid #0ff;*/
+	overflow: hidden;
+	min-width: 810px;
+	max-width: 810px;
+	transition: .4s ease;
+}
+#carusel_joy > #carusel_rolik{
+	/*border: 1px solid #f00;*/
+	width: 2700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	transition-duration: none;
+	transition-timing-function: ease;
+	margin-left: -1080px; 
+}
+
+#carusel_joy #carusel_rolik .cards{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0px;
+	/*border: 1px solid #f00;*/
+	padding: 0px 10px;
+	min-width: 270px;
+	max-width: 270px;
+}
+/*#carusel_rolik:hover{
+	margin-left: -270px!important;
+}
+*/
+.cards > img{
+	border: 3px solid var(--orange2);
+	width: 250px;
+}
+.cards > p{
+	font-size: 15px;
+	text-indent: 10%;
+	text-align: justify; 
+	margin: 10px 0px;
+}
+//.item1, .item2, .item3 { display: block; }
+//.item4 { display: none!important; }
+
+.cards_sana{
+	display: none;
+	position: absolute;
+	margin-left: 92px;
+	margin-top: -2px;
+	background-color: rgba(185, 113, 1, 50%);
+	width: 70px;
+	height: 100px;	
+}
+.cards_sana > p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.cards_sana > p > span{
+	font-size: 30px;
+}

@@ -1,0 +1,50 @@
+#section6{
+	padding: 30px;
+	background-color: #fcfbe5;
+	width: 100%;
+}
+#section6_ichki{
+	
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+	width: 1100px;
+}
+#section6_ichki > h3{
+	/*border: 1px solid red;*/
+	text-indent: 40px;
+	font-size: 28pt;
+	color: var(--orange2);
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#sec6Havolalar1qator{
+	margin: 10px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#sec6Havolalar2qator{
+	margin: 10px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#sec6Havolalar3qator{
+	margin: 10px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.havola{
+	width: 210px;
+	transition: .3s ease;
+}
+
+.havola > img{
+	width: 100%;
+}
+
+.havola > img:hover{
+	box-shadow: 0px 0px 7px 1px #aaa;
+}

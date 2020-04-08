@@ -1,0 +1,348 @@
+#section1{
+	width: 100%;
+	background-color: var(--orange1);
+}
+/*****************section1 ni 1 - qismi*******************/
+/*****************section1 ni 1 - qismi*******************/
+/*****************section1 ni 1 - qismi*******************/
+
+#header_tepa{
+	/*border: 2px solid red;*/
+	margin: 0px auto;
+	height: 30px;
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+#header_tepa_right{
+	/*border: 1px solid red;*/
+	width: 600px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+#header_tepa_right > p{
+	/*border: 1px solid red;*/
+	font-size: 12pt;
+	line-height: 30px;
+	color: #fff;
+}
+#header_tepa_right h5{
+	color: #fff;
+}
+#korinish{
+	/*border: 1px solid red;*/
+	width: 120px ;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+#korinish > h5{
+	font-size: 12pt;
+	margin: 0px 2px;
+	border-radius: 50%;
+	text-align: center;
+	width: 30px;
+	cursor: pointer;
+}
+#korinish > h5:hover{
+	background-color: #fff!important;
+	color: var(--orange1)!important; 
+}
+#korinish > i{
+	width: 25px;
+	height: 25px;
+	text-align: center; 
+	line-height: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: var(--orange1);
+	cursor: pointer;
+}
+#korinish > i:hover{
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: var(--orange1);
+}
+#korinish > #saytRangiBlock{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -100px;
+	height: 60px;
+	border: 7px double var(--orange2);
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 100!important;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	opacity: 100%!important;
+}
+#korinish > #saytRangiBlock > .saytRangclass{
+	margin: 5px;
+	min-width: 80px;
+	max-width: 100px;
+	min-height: 40px;
+	max-height: 40px;
+	color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition-duration: .3s;
+}
+#korinish > #saytRangiBlock > .saytRangclass:hover{
+	box-shadow: 0px 0px 10px 2px #fff;
+}
+
+#korinish > #saytRangiBlock > #saytOqQora{
+	background-color: #000;
+}
+#korinish > #saytRangiBlock > #saytRangli{
+	background-color: var(--orange1);
+}
+#korinish > #saytRangiBlock > #saytRasmlar{
+	background: linear-gradient(to left top, #f00, #0ff, #f0f, #000, #00f, #0f0, #ff0);
+}
+#korinish > #saytRangiBlock > .saytRangclass > p{
+	color: #fff;
+	font-weight: 900;
+	font-size: 12pt;
+}
+
+
+#til{
+	/*border: 1px solid red;*/
+	width: 120px;
+	display: flex;
+	flex-direction: row;
+	//align-items: center;
+	justify-content: space-between;
+}
+#til > a{
+	text-decoration: none;
+	width: 35px;
+	text-align: center;
+	font-size: 12pt;
+	line-height: 25px;
+	/*border: 1px solid red;*/
+	border-radius: 50%;
+	color: #fff;
+}
+#til > a:hover{
+	background-color: #fff!important;
+	color: var(--orange1)!important; 
+}
+.active_til{
+	background-color: #fff!important;
+	color: var(--orange1)!important; 
+}
+
+/*****************section1 ni 2 - qismi*******************/
+/*****************section1 ni 2 - qismi*******************/
+/*****************section1 ni 2 - qismi*******************/
+
+
+#header_orta{
+	/*border: 2px solid red;*/
+	background-color: #fff;
+	width: 100%;
+	height: 250px;
+}
+#header_orta_ichki{
+	/*border: 2px solid red;*/
+	margin: 0px auto;
+	width: 1200px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+#header_orta_left{
+	/*border: 2px solid #ff0;*/
+	height: 100%;
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#header_orta_left > #header_orta_text{
+	/*border: 1px solid #f0f;*/
+}
+
+#header_orta_left > #header_orta_text > h1 {
+	color: var(--orange2);
+	/*color: linear-gradient(to left top, #c27a10, #f8c802,  #c27a10);*/
+	text-transform: uppercase;
+	font-size: 45px;
+	font-family: 'OpenSans';
+	text-shadow: 4px 4px 3px #aaa;
+}
+#header_orta_left > #header_orta_text > h1 > span{
+	font-size: 55px;
+}
+#header_orta_left > #header_orta_text > h2{
+	margin-top: 5px;
+	padding-top: 5px;
+	color: var(--orange2);
+	border-top: 2px solid var(--orange2);
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'OpenSans';
+}
+
+#header_orta_right{
+	/*border: 2px solid #f0f;*/
+	height: 100%;
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+#nomer{
+	/*border: 2px solid #0ff;*/
+	position: relative;
+	right: 100px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+#nomer_chap{
+	/*border: 1px solid red;*/
+	color: var(--orange2);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: flex-end;
+}
+#nomer_ong{
+	/*border: 1px solid red;*/
+	color: var(--orange2);
+	display: flex;
+	flex-direction: column;
+}
+
+#nomer_ong > p{
+	align-self: flex-end;
+	font-size: 18px;
+}
+
+#nomer_ong > h2{
+	font-weight: 900;
+	font-size: 25px;
+}
+
+#nomer_ong > h2 > span{
+	font-size: 35px;
+}
+
+/*****************section1 ni 3 - qismi*******************/
+/*****************section1 ni 3 - qismi*******************/
+/*****************section1 ni 3 - qismi*******************/
+
+#header_menu{
+	height: 50px;
+	background: url("../images/menu_backgraund.jpg") repeat-x; 
+}
+
+#header_menu_ichki{
+	margin: auto;
+	/*border: 2px solid red;*/
+	width: 1200px;
+	height: 100%;
+}
+
+#header_menu > #header_menu_ichki > ul{
+	margin: auto;
+	/*border: 1px solid green;*/
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	height: 100%;
+}
+
+#header_menu > #header_menu_ichki > ul > li{
+	/*border: 1px solid #ff0;*/
+	height: 100%;
+	transition: .3s ease;
+	display: flex;
+	align-self: center;
+}
+
+#qidiruv{
+	/*border: 1px solid red;*/
+	border: 1px solid #fff;
+	align-self: center;
+	height: 30px;
+	width: 220px;
+	background-color: #f1cd4e;
+	display: flex;
+}
+#qidiruv > button{
+	height: 28px;
+	width: 30px;
+	border: none;
+	background-color: #f1cd4e;
+}
+#qidiruv > button > i{
+	font-size: 20px;
+	line-height: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: #f1cd4e;
+}
+
+#qidiruv input[type="text"]{
+	width: 190px;
+	border: none; 
+	background-color: #f1cd4e;
+	height: 100%;
+	font-size: 12pt!important;
+	text-indent: 10px;
+	color: black;
+}
+#qidiruv:focus{
+	background: url("../images/menu_backgraund.jpg") no-repeat right;
+}
+#header_menu > #header_menu_ichki > ul > li > a{
+	/*border: 1px solid #0ff;*/
+	padding: 0px 20px;
+	display: block;
+	height: 100%;
+	font-size: 12pt!important;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #fff;
+	background-image: url("../images/menu_backgraund.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#header_menu > #header_menu_ichki > ul > li:hover{
+	background-color: var(--orange2);
+}
+
+#header_menu > #header_menu_ichki > ul > li:hover{
+	position: relative;
+	height: 60px;
+	margin-top: -10px;
+	padding-top: 10px;
+	border-radius: 0px 20px 0px 0px;
+}

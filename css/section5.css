@@ -1,0 +1,68 @@
+#section5{
+	width: 100%;
+	padding: 40px 0px;
+}
+#section5_ichki{
+	margin: 0px auto;
+	/*border: 2px solid red;*/
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#section5_ichki > #filiallar_chap{
+	/*border: 1px solid red;*/
+	width: 30%;
+}
+#section5_ichki > #filiallar_chap > h3{
+	font-size: 20pt;
+	text-transform: uppercase;
+	color: var(--orange2);
+	margin-bottom: 10px;
+}
+#section5_ichki > #filiallar_chap > form > select{
+	border-color: var(--orange2);
+	width: 280px;
+	color: var(--orange2);
+	font-size: 18px;
+	padding: 6px 10px;
+	margin-bottom: 10px;
+}
+
+#filiallarHaqida .vilAbout > h6{
+	font-size: 14pt;
+	color: var(--orange2);
+	font-weight: 100;
+}
+
+#filiallarHaqida .vilAbout > a{
+	font-size: 14pt;
+	color: var(--orange2);
+	text-decoration: none;
+}
+
+#far, #and, #tosh, #nam, #gul, #jiz, #sam, #qash, #sur, #buh, #nav, #xor, #qor{}
+
+#section5_ichki > #filiallar_ong{
+	/*border: 1px solid red;*/
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#section5_ichki > #filiallar_ong > img{
+	border: 1px solid #0ff;
+	padding: 5%;
+	width: 100%;
+}
+#filiallar_ong h4{
+	color: var(--orange2);
+	position: absolute;
+	display: flex;
+	margin-top: 70px!important;
+	margin-left: 250px;
+	font-size: 14pt;
+	font-weight: normal;
+}
